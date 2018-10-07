@@ -32,9 +32,13 @@ quill.on('text-change', function(delta, oldDelta, source) {
   
 });
 
+function clickSubmit() {
+  document.querySelectorAll('[mstridx="0"]')[0].click();
+}
+
 function realSubmit() {
   document.querySelectorAll('[k="W49"]')[0].childNodes[0].click();
-  document.querySelectorAll('[mstridx="0"]')[0].click();
+  setTimeout(clickSubmit,1000);
 }
 
 //# sourceMappingURL=quill.min.js.map
