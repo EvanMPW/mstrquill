@@ -29,12 +29,14 @@ quill.on('text-change', function(delta, oldDelta, source) {
   //document.querySelectorAll('[k="W49"]')[0].childNodes[0].innerText = htmlContents;
   //document.querySelectorAll('[k="W49"]')[0].childNodes[0].click();
   mstrmojo.all.mstr92.value = htmlContents;
+  document.querySelectorAll('[k="W2513"]')[0].childNodes[0].click();
+  document.querySelectorAll('[k="W49"]')[0].childNodes[0].click();
   //document.getElementById("mstr88").value = htmlContents;
   
 });
 
 function clickSubmit() {
-  document.querySelectorAll('[k="W2511"]')[0].childNodes[0].click();
+  document.querySelectorAll('[k="W2513"]')[0].childNodes[0].click();
   document.querySelectorAll('[mstridx="0"]')[0].click();
 }
 
