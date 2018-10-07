@@ -21,7 +21,7 @@ quill.on('text-change', function(delta, oldDelta, source) {
 
 function realSubmit() {
   document.querySelectorAll('[k="W49"]')[0].childNodes[0].click();
-  mstrmojo.all.mstr87.click();
+  document.querySelectorAll('[mstridx="0"]')[0].click();
 }
 
 //# sourceMappingURL=quill.min.js.map
