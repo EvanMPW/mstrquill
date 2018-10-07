@@ -10,7 +10,7 @@
 var quill = new Quill('#editor', {theme: 'snow'});
 
 quill.on('text-change', function(delta, oldDelta, source) {
-  var htmlContents = quill.root.outerHTML;
+  var htmlContents = quill.root.innerHTML;
   console.log(htmlContents);
   document.querySelectorAll('[k="W49"]')[0].childNodes[0].innerHTML=htmlContents;
 });
