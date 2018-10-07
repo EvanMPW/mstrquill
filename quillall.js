@@ -19,7 +19,8 @@ var quill = new Quill('#editor', {
   modules: {
     toolbar: toolbarOptions
   },
-  theme: 'snow'
+  theme: 'snow',
+  placeholder: 'Compose your message here...'
 });
 
 quill.on('text-change', function(delta, oldDelta, source) {
