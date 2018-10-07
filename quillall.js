@@ -13,7 +13,7 @@ var quill = new Quill('#editor', {
       [{ header: [1, 2, false] }],
       ['bold', 'italic', 'underline'],
       ['color','background'],
-      ['image', 'link']
+      ['link']
     ]
   },
   placeholder: 'Compose your message here...',
