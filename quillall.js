@@ -12,8 +12,9 @@ var quill = new Quill('#editor', {theme: 'snow'});
 quill.on('text-change', function(delta, oldDelta, source) {
   var htmlContents = quill.root.innerHTML;
   console.log(htmlContents);
+  document.querySelectorAll('[k="W49"]')[0].childNodes[1].click();
   document.getElementById("mstr88").value = htmlContents;
-  //document.querySelectorAll('[k="W49"]')[0].childNodes[1].innerText=htmlContents;
+  
 });
 
 //# sourceMappingURL=quill.min.js.map
