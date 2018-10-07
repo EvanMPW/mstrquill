@@ -28,7 +28,7 @@ quill.on('text-change', function(delta, oldDelta, source) {
   console.log(htmlContents);
   //document.querySelectorAll('[k="W49"]')[0].childNodes[0].innerText = htmlContents;
   //document.querySelectorAll('[k="W49"]')[0].childNodes[0].click();
-  mstrmojo.all.mstr90.value = htmlContents;
+  mstrmojo.all.mstr89.value = htmlContents;
   //document.getElementById("mstr88").value = htmlContents;
   
 });
